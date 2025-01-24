@@ -13,3 +13,5 @@ describe("test meterstoyards", function() {
         expect(yards.toFixed(2)).toBe("134.51");
     });
 });
+
+console.log(meters + "Meters is" + yards + "yards")

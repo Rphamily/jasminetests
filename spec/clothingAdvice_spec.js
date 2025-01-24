@@ -15,3 +15,5 @@ describe("Clothing Suggestion Tests", function() {
         expect(suggestion).toBe("Wear a warm jacket.");
     });
 });
+
+console.log(suggestion)
