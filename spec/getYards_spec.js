@@ -1,4 +1,4 @@
-import { getYards } from "./functions.js";
+import { meterstoyards } from "./functions.js";
 
 describe("test meterstoyards", function() {
     it("test 10 m", function() {
