@@ -36,3 +36,10 @@ function getClothingSuggestion(temperature, humidity) {
 }
 
 export { getClothingSuggestion };
+
+function calculateCubeVolume(edge) {
+    let volume = Math.pow(edge, 3);  // Calculate volume by cubing the edge length
+    return volume;
+}
+
+export { calculateCubeVolume };
