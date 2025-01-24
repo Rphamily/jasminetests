@@ -5,6 +5,7 @@ describe("Clothing Suggestion Tests", function() {
         let temperature = 30;  // 30°C
         let humidity = 60;     // 60% humidity
         let suggestion = getClothingSuggestion(temperature, humidity);
+        console.log(suggestion);  // Logs suggestion 
         expect(suggestion).toBe("Wear light clothes, like shorts.");
     });
 
@@ -12,8 +13,7 @@ describe("Clothing Suggestion Tests", function() {
         let temperature = 5;   // 5°C
         let humidity = 75;     // 75% humidity
         let suggestion = getClothingSuggestion(temperature, humidity);
+        console.log(suggestion);  // Logs suggestion 
         expect(suggestion).toBe("Wear a warm jacket.");
     });
 });
-
-console.log(suggestion)
