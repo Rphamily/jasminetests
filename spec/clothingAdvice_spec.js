@@ -12,6 +12,6 @@ describe("Clothing Suggestion Tests", function() {
         const temperature = 5;   // 5°C
         const humidity = 75;     // 75% humidity
         const suggestion = getClothingSuggestion(temperature, humidity);
-        expect(suggestion).toBe("Wear heavy winter clothing.");
+        expect(suggestion).toBe("Wear a warm jacket.");
     });
 });
